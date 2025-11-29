@@ -4,6 +4,10 @@ import logging
 from datetime import datetime, time as dtime
 from dotenv import load_dotenv
 import nest_asyncio
+from dotenv import load_dotenv
+import os
+
+load_dotenv() 
 nest_asyncio.apply()
 from pytz import timezone as pytz_timezone
 
